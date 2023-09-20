@@ -5,7 +5,7 @@ const AuthPage = (props) => {
       e.preventDefault();
       const { value } = e.target[0];
       axios.post(
-        'http://localhost:3001/auth', 
+        'https://chathub-m1ax.onrender.com/auth', 
         {username: value}
         )
       .then(r => props.onAuth({ ...r.data, secret: value}))
