@@ -12,6 +12,7 @@ app.post("/auth", async (req, res) => {
   const { username } = req.body;
   try {
     const r = await axios.put(
+  ## integrating the chatengine.io with my app
         'https://api.chatengine.io/users/',
         { username: username, secret: username, first_name: username },
         { headers: {"private-key": process.env.privateKey }}
