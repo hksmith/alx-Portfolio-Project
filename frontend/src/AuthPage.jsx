@@ -3,6 +3,7 @@ import axios from 'axios'
 const AuthPage = (props) => {
     const onSubmit = (e) => {
       e.preventDefault();
+## creating an account for the users by just accepting their name
       const { value } = e.target[0];
       axios.post(
         'https://chathub-m1ax.onrender.com/auth', 
@@ -13,6 +14,7 @@ const AuthPage = (props) => {
     };
   
     return (
+## the front page
       <div className="background">
         <form onSubmit={onSubmit} className="form-card">
           <div className="form-title">Welcome 👋</div>
