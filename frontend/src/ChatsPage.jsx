@@ -7,6 +7,7 @@ const ChatsPage = (props) => {
         props.user.secret
         );
     return( 
+## integrating the given user interface from chatengine
     <div style={{ height: '100vh'}}>
         <MultiChatSocket {...chatProps}/>
         <MultiChatWindow {...chatProps} style={{height: '100%'}}/>
