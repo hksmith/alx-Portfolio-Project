@@ -4,14 +4,15 @@
 
 
 Welcome to ChatHub, an interactive conversational platform that connects users through meaningful conversations. ChatHub offers versatile interaction modes, including AI chat, one-on-one conversations, and group chats. Engage, connect, and chat with friends.
-Table of Contents
-Introduction
-Installation
-Usage
-Contributing
-Related Projects
-License
-Introduction
+## Table of Contents
+#### Introduction
+#### Installation
+#### Usage
+#### Contributing
+#### Related Projects
+#### License
+
+## Introduction
 ChatHub is a versatile conversational platform that empowers users to connect, communicate, and engage in dynamic dialogues. Whether you want to chat with friends or enjoy group discussions, ChatHub provides a seamless and engaging experience.
 
 ## Key Features:
@@ -24,15 +25,15 @@ Explore ChatHub:
 
 Blog Article - Learn more about the project's development journey.
 Authors' LinkedIn - Connect with the project authors on LinkedIn.
-Installation
+## Installation
 To run ChatHub locally, follow these steps:
 
 Clone this repository: git clone [https://github.com/hksmith/alx-Portfolio-Project/](https://github.com/hksmith/alx-Portfolio-Project/)
 Navigate to the project directory: cd ChatHub
-Install dependencies: npm install
+### Install dependencies: npm install
 Start the development server: npm start
 Open your browser and visit: http://localhost:3000
-Usage
+## Usage
 ChatHub provides a user-friendly interface for engaging in different chat modes. Here's how to get started:
 
 One-on-One Conversations:
@@ -45,7 +46,7 @@ User Profiles:
 Click on your profile picture to customize your profile.
 Enjoy seamless communication and engaging conversations on ChatHub!
 
-Contributing
+## Contributing
 We welcome contributions from the community. If you'd like to contribute to ChatHub, please follow these guidelines:
 
 Fork the repository on GitHub.
@@ -57,5 +58,5 @@ Create a pull request to the main repository's main branch.
 We'll review and merge your contributions if they align with the project's goals.
 
 
-License
+## License
 This project is licensed under the MIT License.
